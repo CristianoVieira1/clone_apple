@@ -1,0 +1,70 @@
+.container {
+    max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 2.2rem;
+}
+
+.watch {
+    background: url('src/assets/img/hero/watch/watch_large.jpg');
+}
+
+.title-heading-watch {
+    height: 7.8rem;
+    background: url('src/assets/img/hero/watch/logo_watch_large.png') center no-repeat;
+    background-size: auto 7.8rem;
+    margin-top: 1.6rem;
+}
+
+.hero {
+    height: 69.2rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .6rem solid #fff;
+    border-bottom: .6rem solid #fff;
+}
+
+.title-heading {
+    font-size: 5.6rem;
+    line-height: 1.07143;
+    letter-spacing: -.005rem;
+}
+
+.title-sub-heading {
+    font-size: 2.65rem;
+    margin-top: .6rem;
+    letter-spacing: .008rem;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1068px) {
+    .iphone-11-pro {
+        background: url('src/assets/img/hero/iphone-11-pro/iphone_11_pro_medium.jpg');
+    }
+    .iphone-11 {
+        background: url('src/assets/img/hero/iphone-11/iphone_11_medium.jpg');
+    }
+    .watch {
+        background: url('src/assets/img/hero/watch/logo_watch_medium..png');
+    }
+    .hero {
+        height: 65rem;
+        background-size: auto 69.8rem;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+    }
+    .title-heading {
+        font-size: 4.4rem;
+    }
+    .title-sub-heading {
+        font-size: 2.4rem;
+    }
+    .cta-link:nth-child(2) {
+        margin-left: 2rem;
+    }
+    .title-heading-watch {
+        height: 6.2rem;
+        background: url('src/assets/img/hero/watch/logo_watch_medium..png') center no-repeat;
+        background-size: auto 6.2rem;
+    }
+}
